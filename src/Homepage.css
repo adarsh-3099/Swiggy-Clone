@@ -1,0 +1,25 @@
+.homepage{
+    background-color: #282c3f;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homepage__images{
+    width: 260px;
+    height: 260px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+
+.homepage__images:hover {
+    transform: scale(1.1); 
+}
+
+.home__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

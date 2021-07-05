@@ -1,0 +1,128 @@
+.login{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login__Signup{
+    flex: 1;
+}
+
+.login__logo{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.login__buttons{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.signUP{
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.logIn{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.logIn:hover{
+    color:orange;
+}
+
+.image{
+    background-size: cover;
+    height: 720px;
+    width: 500px;
+}
+
+.inp{
+    width: 400px;
+    height: 50px;
+}
+
+.inp:focus{
+    outline: none !important;
+    border: 1px solid  rgb(252, 128, 25);
+}
+
+.find__button{
+    padding: 18px;
+    width: 150px;
+    background-color: rgb(252, 128, 25);
+    color: white;
+    font-weight: 800;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login__location{
+    margin:100px;
+}
+
+h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.bottom{
+  background-color: #715C43;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottom_img1 > img {
+  height: 192px;
+  width: 105px;
+}
+
+.bottom_img2 > img {
+  height: 192px;
+  width: 105px;
+}
+
+.bottom_img3 > img {
+  height: 192px;
+  width: 105px;
+}
+
+h3{
+  color: white;
+}
